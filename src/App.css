@@ -1,0 +1,61 @@
+/* Primary Color */
+.primary {
+  color: #1e90ff;
+}
+
+/* Secondary Color */
+.secondary {
+  color: #ffd700;
+}
+
+/* Background Color */
+body {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.router-outlet {
+  min-height: 100vh;
+}
+
+/* Text Color */
+.text {
+  color: #333333;
+}
+
+/* Accent Color */
+.accent {
+  color: #ff4500;
+}
+
+/* Border Color */
+.border {
+  border-color: #dddddd;
+}
+
+@media (max-width: 480px) {
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* Styles for small screens and laptops */
+}
+
+@media (min-width: 1025px) {
+  /* Styles for desktops and larger screens */
+}
+
+.fira {
+  font-family: "Fira Sans", sans-serif;
+}
+
+.playfair {
+  font-family: "Playfair Display", serif;
+}

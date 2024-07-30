@@ -1,0 +1,50 @@
+.specific-brand-container h1 {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.specific-brand-list {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 300px);
+  grid-auto-rows: max-content;
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+
+.product-details-card {
+  margin-top: 16px;
+}
+
+.card {
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  z-index: 1;
+
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+}
+
+.product-color {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: black;
+  margin-right: 4px;
+  box-shadow: 1px 1px 2px black;
+}
+
+.rating-colors-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.fill {
+  flex: 1;
+}
