@@ -2,6 +2,11 @@
 
 Assignment for Stories Arabia. I have created a website that sells eyeliners
 
+# Submission
+
+- Code: https://github.com/zalak-undavia/eyeliner-shop
+- Deployed Link: https://eyeliner-shop.web.app/
+
 # Highlights
 
 - Landing page with eye catching UX and animations
